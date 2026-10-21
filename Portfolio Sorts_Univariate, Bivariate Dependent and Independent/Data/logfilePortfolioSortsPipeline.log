@@ -1,0 +1,54 @@
+2026-07-18 00:04:33.382 | INFO     | __main__:start:49 - Start Time: 2026-07-18 00:04:33
+2026-07-18 00:04:33.382 | INFO     | __main__:start:50 - Start portfolio sorts pipeline...
+2026-07-18 00:04:33.383 | INFO     | __main__:clearSolutionsFolder:53 - Clearing solution folder at /Users/flo/Documents/Uni/FDS/FDS_py/PS4/Data/solution_Univaritae_netis_at...
+2026-07-18 00:06:12.810 | INFO     | __main__:start:49 - Start Time: 2026-07-18 00:06:12
+2026-07-18 00:06:12.811 | INFO     | __main__:start:50 - Start portfolio sorts pipeline...
+2026-07-18 00:06:12.811 | INFO     | __main__:clearSolutionsFolder:53 - Clearing solution folder at /Users/flo/Code/submission_Florian_Helfrich/solution_Univaritae_netis_at...
+2026-07-18 00:06:32.819 | INFO     | __main__:start:49 - Start Time: 2026-07-18 00:06:32
+2026-07-18 00:06:32.819 | INFO     | __main__:start:50 - Start portfolio sorts pipeline...
+2026-07-18 00:06:32.820 | INFO     | __main__:clearSolutionsFolder:53 - Clearing solution folder at /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at...
+2026-07-18 00:06:34.635 | INFO     | __main__:calcMonthlyExcessReturns:137 - Processed risk free rates saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/RiskFreeRatesFilteredMonthly.parquet
+2026-07-18 00:06:34.635 | INFO     | __main__:calcMonthlyExcessReturns:138 - Processed data saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/SPXConstituentsPricesPrepared.parquet
+2026-07-18 00:06:35.200 | INFO     | __main__:mergeData:170 - Merged data saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/MergedInputData.parquet
+2026-07-18 00:06:35.755 | INFO     | __main__:getSortingDates:217 - Filtered dataset saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/MergedInputDataFiltered.parquet
+2026-07-18 00:06:35.756 | INFO     | __main__:getSortingDates:218 - Sorting dates saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/SortingDates.parquet
+2026-07-18 00:06:35.812 | INFO     | __main__:buildSortedPortfolios:229 - Starting calculation of sorted portfolios: Univariate
+2026-07-18 00:06:35.812 | INFO     | __main__:buildSortedPortfolios:230 - Sorting variable 1: netis_at, sorting variable 2: market_equity, outcome variable: return_month_ahead_excess, percentiles variable 1: [30, 70], percentiles variable 2: [30, 70]
+2026-07-18 00:06:35.813 | INFO     | __main__:buildSortedPortfolios:231 - Weighting: MarketCapWeighted, filter for portfolios: None, maximum possible backtracking: 0 days
+2026-07-18 00:06:36.453 | INFO     | __main__:buildSortedPortfolios:583 - Saved sortedPortfolioResults to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/sortedPortfolioResults.pkl
+2026-07-18 00:06:36.454 | INFO     | __main__:buildSortedPortfolios:583 - Saved sortedOutcomeResults to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/sortedOutcomeResults.pkl
+2026-07-18 00:06:36.454 | INFO     | __main__:buildSortedPortfolios:583 - Saved numberOfStocks to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/numberOfStocks.pkl
+2026-07-18 00:06:36.455 | INFO     | __main__:buildSortedPortfolios:583 - Saved breakpointsDict to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/breakpointsDict.pkl
+2026-07-18 00:06:36.455 | INFO     | __main__:buildSortedPortfolios:583 - Saved missingDataDict to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/missingDataDict.pkl
+2026-07-18 00:06:36.456 | INFO     | __main__:buildSortedPortfolios:583 - Saved missingRebalancingDatesList to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/missingRebalancingDatesList.pkl
+2026-07-18 00:06:36.456 | INFO     | __main__:buildSortedPortfolios:584 - Completed calculation of sorted portfolios.
+2026-07-18 00:06:36.466 | INFO     | __main__:convertOutcome:613 - PortfoliosOutcome.parquet has been saved.
+2026-07-18 00:06:36.469 | INFO     | __main__:calcDiffPortfolios:690 - Generalized resulting DataFrame with structural columns saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/PortfoliosOutcomePlusDiff.parquet
+2026-07-18 00:06:36.479 | INFO     | __main__:performStatTest:745 - Statistical test results saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/PortfoliosOutcomePlusDiffTest.parquet
+2026-07-18 00:06:36.479 | INFO     | __main__:end:71 - Portfolio sorts pipeline done!
+2026-07-18 00:06:36.479 | INFO     | __main__:end:72 - End Time: 2026-07-18 00:06:36
+2026-07-18 00:06:36.480 | INFO     | __main__:end:73 - Duration: 00:00:03
+2026-07-18 00:06:55.447 | INFO     | __main__:start:49 - Start Time: 2026-07-18 00:06:55
+2026-07-18 00:06:55.448 | INFO     | __main__:start:50 - Start portfolio sorts pipeline...
+2026-07-18 00:06:55.448 | INFO     | __main__:clearSolutionsFolder:53 - Clearing solution folder at /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at...
+2026-07-18 00:06:57.216 | INFO     | __main__:calcMonthlyExcessReturns:137 - Processed risk free rates saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/RiskFreeRatesFilteredMonthly.parquet
+2026-07-18 00:06:57.218 | INFO     | __main__:calcMonthlyExcessReturns:138 - Processed data saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/SPXConstituentsPricesPrepared.parquet
+2026-07-18 00:06:57.750 | INFO     | __main__:mergeData:170 - Merged data saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/MergedInputData.parquet
+2026-07-18 00:06:58.352 | INFO     | __main__:getSortingDates:217 - Filtered dataset saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/MergedInputDataFiltered.parquet
+2026-07-18 00:06:58.352 | INFO     | __main__:getSortingDates:218 - Sorting dates saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/SortingDates.parquet
+2026-07-18 00:06:58.411 | INFO     | __main__:buildSortedPortfolios:229 - Starting calculation of sorted portfolios: Univariate
+2026-07-18 00:06:58.412 | INFO     | __main__:buildSortedPortfolios:230 - Sorting variable 1: netis_at, sorting variable 2: market_equity, outcome variable: return_month_ahead_excess, percentiles variable 1: [30, 70], percentiles variable 2: [30, 70]
+2026-07-18 00:06:58.412 | INFO     | __main__:buildSortedPortfolios:231 - Weighting: MarketCapWeighted, filter for portfolios: None, maximum possible backtracking: 0 days
+2026-07-18 00:06:59.010 | INFO     | __main__:buildSortedPortfolios:583 - Saved sortedPortfolioResults to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/sortedPortfolioResults.pkl
+2026-07-18 00:06:59.010 | INFO     | __main__:buildSortedPortfolios:583 - Saved sortedOutcomeResults to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/sortedOutcomeResults.pkl
+2026-07-18 00:06:59.011 | INFO     | __main__:buildSortedPortfolios:583 - Saved numberOfStocks to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/numberOfStocks.pkl
+2026-07-18 00:06:59.012 | INFO     | __main__:buildSortedPortfolios:583 - Saved breakpointsDict to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/breakpointsDict.pkl
+2026-07-18 00:06:59.013 | INFO     | __main__:buildSortedPortfolios:583 - Saved missingDataDict to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/missingDataDict.pkl
+2026-07-18 00:06:59.013 | INFO     | __main__:buildSortedPortfolios:583 - Saved missingRebalancingDatesList to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/missingRebalancingDatesList.pkl
+2026-07-18 00:06:59.014 | INFO     | __main__:buildSortedPortfolios:584 - Completed calculation of sorted portfolios.
+2026-07-18 00:06:59.025 | INFO     | __main__:convertOutcome:613 - PortfoliosOutcome.parquet has been saved.
+2026-07-18 00:06:59.027 | INFO     | __main__:calcDiffPortfolios:690 - Generalized resulting DataFrame with structural columns saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/PortfoliosOutcomePlusDiff.parquet
+2026-07-18 00:06:59.030 | INFO     | __main__:performStatTest:745 - Statistical test results saved to /Users/flo/Code/submission_Florian_Helfrich/Data/solution_Univaritae_netis_at/PortfoliosOutcomePlusDiffTest.parquet
+2026-07-18 00:06:59.032 | INFO     | __main__:end:71 - Portfolio sorts pipeline done!
+2026-07-18 00:06:59.032 | INFO     | __main__:end:72 - End Time: 2026-07-18 00:06:59
+2026-07-18 00:06:59.033 | INFO     | __main__:end:73 - Duration: 00:00:03
